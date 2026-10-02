@@ -1,0 +1,604 @@
+﻿@model Lab1.Models.ContactMessage
+
+@{
+    ViewData["Title"] = "Home";
+}
+
+<!-- Hero section -->
+<header class="bg-dark py-5" id="about">
+    <div class="container px-5">
+        <div class="row gx-5 align-items-center justify-content-center">
+
+            <div class="col-lg-8 col-xl-7 col-xxl-6">
+                <div class="my-5 text-center text-xl-start">
+
+                    <h1 class="display-5 fw-bolder text-white mb-2">
+                        Learn today. Build your future.
+                    </h1>
+
+                    <p class="lead fw-normal text-white-50 mb-4">
+                        Develop practical skills with expert-led online courses
+                        designed for your career and personal growth.
+                    </p>
+
+                    <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
+
+                        <a class="btn btn-primary btn-lg px-4 me-sm-3"
+                           href="#courses">
+                            Explore Courses
+                        </a>
+
+                        <a class="btn btn-outline-light btn-lg px-4"
+                           href="#pricing">
+                            Learn More
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center">
+                <img class="img-fluid rounded-3 my-5"
+                     src="https://dummyimage.com/600x400/343a40/ffffff&text=EduNova+Academy"
+                     alt="EduNova Academy" />
+            </div>
+
+        </div>
+    </div>
+</header>
+
+
+<!-- Courses / Features section -->
+<section class="py-5" id="courses">
+    <div class="container px-5 my-5">
+
+        <div class="row gx-5">
+
+            <!-- Design -->
+            <div class="col-lg-4 mb-5 mb-lg-0">
+                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3">
+                    <i class="bi bi-palette"></i>
+                </div>
+
+                <h2 class="h4 fw-bolder">
+                    Design & Creativity
+                </h2>
+
+                <p>
+                    Learn graphic design, UI/UX and visual communication
+                    from experienced professionals.
+                </p>
+
+                <a class="text-decoration-none" href="#contact">
+                    Learn more
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+            </div>
+
+
+            <!-- Programming -->
+            <div class="col-lg-4 mb-5 mb-lg-0">
+                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3">
+                    <i class="bi bi-code-slash"></i>
+                </div>
+
+                <h2 class="h4 fw-bolder">
+                    Programming
+                </h2>
+
+                <p>
+                    Master modern programming technologies and build
+                    real-world digital projects.
+                </p>
+
+                <a class="text-decoration-none" href="#contact">
+                    Learn more
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+            </div>
+
+
+            <!-- Business -->
+            <div class="col-lg-4">
+                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3">
+                    <i class="bi bi-briefcase"></i>
+                </div>
+
+                <h2 class="h4 fw-bolder">
+                    Business & Marketing
+                </h2>
+
+                <p>
+                    Develop essential business and digital marketing skills
+                    to grow your career.
+                </p>
+
+                <a class="text-decoration-none" href="#contact">
+                    Learn more
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- Learning plans section -->
+<section class="py-5 bg-light" id="pricing">
+    <div class="container px-5 my-5">
+
+        <div class="text-center mb-5">
+
+            <h2 class="fw-bolder">
+                Choose your learning plan
+            </h2>
+
+            <p class="lead mb-0">
+                Find the right plan for your learning journey.
+            </p>
+
+        </div>
+
+
+        <div class="row gx-5 justify-content-center">
+
+            <!-- STARTER -->
+            <div class="col-lg-4 mb-5 mb-lg-0">
+
+                <div class="card h-100 shadow border-0">
+
+                    <div class="card-body p-5">
+
+                        <div class="mb-3">
+
+                            <span class="text-uppercase fw-bold small">
+                                Starter
+                            </span>
+
+                            <div class="display-5 fw-bold">
+                                $0
+                                <span class="fs-6 fw-normal">
+                                    /month
+                                </span>
+                            </div>
+
+                            <p class="text-muted">
+                                Perfect for exploring the basics of online learning.
+                            </p>
+
+                        </div>
+
+
+                        <ul class="list-unstyled mb-4">
+
+                            <li class="mb-2">
+                                <i class="bi bi-check text-primary"></i>
+                                Access to free courses
+                            </li>
+
+                            <li class="mb-2">
+                                <i class="bi bi-check text-primary"></i>
+                                Basic learning materials
+                            </li>
+
+                            <li class="mb-2">
+                                <i class="bi bi-check text-primary"></i>
+                                Community access
+                            </li>
+
+                            <li class="mb-2 text-muted">
+                                <i class="bi bi-x"></i>
+                                Course certificates
+                            </li>
+
+                            <li class="mb-2 text-muted">
+                                <i class="bi bi-x"></i>
+                                Personal learning support
+                            </li>
+
+                        </ul>
+
+
+                        <div class="d-grid">
+
+                            <a class="btn btn-outline-dark"
+                               href="#courses">
+                                Get Started
+                            </a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- PRO -->
+            <div class="col-lg-4 mb-5 mb-lg-0">
+
+                <div class="card h-100 shadow border-0">
+
+                    <div class="card-body p-5">
+
+                        <div class="mb-3">
+
+                            <span class="text-uppercase fw-bold small">
+                                Pro
+                            </span>
+
+                            <div class="display-5 fw-bold">
+                                $9
+                                <span class="fs-6 fw-normal">
+                                    /month
+                                </span>
+                            </div>
+
+                            <p class="text-muted">
+                                For students who want to develop practical skills.
+                            </p>
+
+                        </div>
+
+
+                        <ul class="list-unstyled mb-4">
+
+                            <li class="mb-2">
+                                <i class="bi bi-check text-primary"></i>
+                                Unlimited course access
+                            </li>
+
+                            <li class="mb-2">
+                                <i class="bi bi-check text-primary"></i>
+                                Practical assignments
+                            </li>
+
+                            <li class="mb-2">
+                                <i class="bi bi-check text-primary"></i>
+                                Course certificates
+                            </li>
+
+                            <li class="mb-2">
+                                <i class="bi bi-check text-primary"></i>
+                                Progress tracking
+                            </li>
+
+                            <li class="mb-2">
+                                <i class="bi bi-check text-primary"></i>
+                                Community access
+                            </li>
+
+                            <li class="mb-2 text-muted">
+                                <i class="bi bi-x"></i>
+                                Personal mentor
+                            </li>
+
+                        </ul>
+
+
+                        <div class="d-grid">
+
+                            <a class="btn btn-primary"
+                               href="#courses">
+                                Choose Pro
+                            </a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- PREMIUM -->
+            <div class="col-lg-4">
+
+                <div class="card h-100 shadow border-0">
+
+                    <div class="card-body p-5">
+
+                        <div class="mb-3">
+
+                            <span class="text-uppercase fw-bold small">
+                                Premium
+                            </span>
+
+                            <div class="display-5 fw-bold">
+                                $49
+                                <span class="fs-6 fw-normal">
+                                    /month
+                                </span>
+                            </div>
+
+                            <p class="text-muted">
+                                The complete learning experience for ambitious students.
+                            </p>
+
+                        </div>
+
+
+                        <ul class="list-unstyled mb-4">
+
+                            <li class="mb-2">
+                                <i class="bi bi-check text-primary"></i>
+                                Unlimited access to all courses
+                            </li>
+
+                            <li class="mb-2">
+                                <i class="bi bi-check text-primary"></i>
+                                Advanced learning materials
+                            </li>
+
+                            <li class="mb-2">
+                                <i class="bi bi-check text-primary"></i>
+                                Practical projects
+                            </li>
+
+                            <li class="mb-2">
+                                <i class="bi bi-check text-primary"></i>
+                                Course certificates
+                            </li>
+
+                            <li class="mb-2">
+                                <i class="bi bi-check text-primary"></i>
+                                Personal mentor support
+                            </li>
+
+                            <li class="mb-2">
+                                <i class="bi bi-check text-primary"></i>
+                                Career guidance
+                            </li>
+
+                            <li class="mb-2">
+                                <i class="bi bi-check text-primary"></i>
+                                Priority support
+                            </li>
+
+                        </ul>
+
+
+                        <div class="d-grid">
+
+                            <a class="btn btn-primary"
+                               href="#contact">
+                                Choose Premium
+                            </a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- Testimonials section -->
+<section class="py-5">
+    <div class="container px-5 my-5">
+
+        <div class="text-center mb-5">
+
+            <h2 class="fw-bolder">
+                What our students say
+            </h2>
+
+            <p class="lead mb-0">
+                Real experiences from the EduNova community.
+            </p>
+
+        </div>
+
+
+        <div class="row gx-5 justify-content-center">
+
+            <!-- Testimonial 1 -->
+            <div class="col-lg-6">
+
+                <div class="card border-0 bg-light">
+
+                    <div class="card-body p-4">
+
+                        <div class="d-flex">
+
+                            <div class="flex-shrink-0">
+                                <i class="bi bi-chat-quote-fill fs-1 text-primary"></i>
+                            </div>
+
+                            <div class="ms-4">
+
+                                <p class="mb-1">
+                                    EduNova helped me develop practical design
+                                    skills and build my first professional portfolio.
+                                </p>
+
+                                <div class="small text-muted">
+                                    — Anna, Web Design Student
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- Testimonial 2 -->
+            <div class="col-lg-6">
+
+                <div class="card border-0 bg-light">
+
+                    <div class="card-body p-4">
+
+                        <div class="d-flex">
+
+                            <div class="flex-shrink-0">
+                                <i class="bi bi-chat-quote-fill fs-1 text-primary"></i>
+                            </div>
+
+                            <div class="ms-4">
+
+                                <p class="mb-1">
+                                    The programming courses combine theory
+                                    with real projects, which makes learning much easier.
+                                </p>
+
+                                <div class="small text-muted">
+                                    — Mark, Programming Student
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- Contact section -->
+<section class="py-5 bg-light" id="contact">
+    <div class="container px-5 my-5">
+
+        <div class="text-center mb-5">
+
+            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3">
+                <i class="bi bi-envelope"></i>
+            </div>
+
+            <h2 class="fw-bolder">
+                Start your learning journey
+            </h2>
+
+            <p class="lead mb-0">
+                Have questions about our courses?
+                We'd love to hear from you.
+            </p>
+
+        </div>
+
+
+        <div class="row gx-5 justify-content-center">
+
+            <div class="col-lg-6">
+
+@if (ViewBag.MessageSent == true)
+{
+    <div class="alert alert-success text-center mb-4">
+        <i class="bi bi-check-circle me-2"></i>
+        Your message has been sent successfully!
+    </div>
+}
+
+
+            <form asp-controller="Home"
+      asp-action="SendEmail"
+      method="post">
+
+    <div class="form-floating mb-3">
+
+        <input class="form-control"
+               asp-for="Name"
+               id="name"
+               type="text"
+               placeholder="Enter your name" />
+
+        <label for="name">
+            Full name
+        </label>
+
+        <span asp-validation-for="Name"
+              class="text-danger">
+        </span>
+
+    </div>
+
+
+    <div class="form-floating mb-3">
+
+        <input class="form-control"
+               asp-for="Email"
+               id="email"
+               type="email"
+               placeholder="name@example.com" />
+
+        <label for="email">
+            Email address
+        </label>
+
+        <span asp-validation-for="Email"
+              class="text-danger">
+        </span>
+
+    </div>
+
+
+    <div class="form-floating mb-3">
+
+        <input class="form-control"
+               asp-for="Subject"
+               id="subject"
+               type="text"
+               placeholder="Subject" />
+
+        <label for="subject">
+            Subject
+        </label>
+
+        <span asp-validation-for="Subject"
+              class="text-danger">
+        </span>
+
+    </div>
+
+
+    <div class="form-floating mb-3">
+
+        <textarea class="form-control"
+                  asp-for="Message"
+                  id="message"
+                  placeholder="Enter your message"
+                  style="height: 10rem"></textarea>
+
+        <label for="message">
+            Message
+        </label>
+
+        <span asp-validation-for="Message"
+              class="text-danger">
+        </span>
+
+    </div>
+
+
+    <div class="d-grid">
+
+        <button class="btn btn-primary btn-lg"
+                type="submit">
+            Send Message
+        </button>
+
+    </div>
+
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+            </div>
+
+        </div>
+    </div>
+</section>
+
+       
